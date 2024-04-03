@@ -1,0 +1,15 @@
+server:
+  port : 8080
+
+cache:
+  update-time-in-minutes: 15
+
+csv:
+    source.file.path: "file:./players.csv"
+    out.file.path: "players-detail.csv"
+
+balldontlie:
+  url: https://api.balldontlie.io/v1/
+  api-key: "put your api key"
+
+
